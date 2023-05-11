@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-family: tahoma;
+  height: 100vh;
+  background-image: url("https://www.turito.com/in/blog/wp-content/uploads/2021/06/How-to-Self-study-Effectively-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  margin-top: 30px;
+}
