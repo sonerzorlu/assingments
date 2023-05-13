@@ -106,10 +106,26 @@ console.log("----------------------------------");
 //     grade=Math.floor(grade/10);
 //     counter++;
 // }console.log(counter);
+
+// todo
+//! ornek 9 +++ times table +++
+
+// let carpim = 0;
+// for (i = 1; i <= 10; i++) {
+//   for (j = 1; j <= 10; j++) {
+//     carpim = i * j;
+//     console.log(`${i} * ${j} = ${carpim}`);
+//   }
+  
+// todo
+//! ornek 9 v2 +++ times table +++
+let line= ""
 let carpim = 0;
 for (i = 1; i <= 10; i++) {
   for (j = 1; j <= 10; j++) {
     carpim = i * j;
-    console.log(`${i} * ${j} = ${carpim}`);
+    line= line + carpim + "\t"
   }
+  line+="\n"
 }
+console.log(line);
